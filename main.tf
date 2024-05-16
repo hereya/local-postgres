@@ -53,7 +53,7 @@ resource "random_pet" "dbname" {
 
 resource "docker_image" "postgres" {
   name         = "postgres:latest"
-  keep_locally = false
+  keep_locally = true
 }
 
 resource "docker_container" "postgres" {
