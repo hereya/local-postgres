@@ -1,4 +1,4 @@
 # POSTGRES
 
-A DReAM package that deploy postgres on local docker container.
+A Hereya package that deploys postgres on local docker container.
 
